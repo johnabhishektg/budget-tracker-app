@@ -4,7 +4,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-h2 {
+.title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,4 +59,64 @@ h2 {
   border-radius: 4px;
   width: 150px;
   height: auto;
+}
+
+/* SEARCH */
+
+.search {
+  margin-top: 2rem;
+}
+
+.search h2 {
+  font-size: 1.4rem;
+  margin: 5px 0;
+}
+
+.search input {
+  border: #a1a1a194 solid 1px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 90%;
+}
+
+/*  EXPENSES */
+.expenses-list {
+  margin-top: 15px;
+}
+
+.expense {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #a1a1a148;
+  padding: 7px;
+  margin: 0 7px 0 0;
+  border-radius: 4px;
+}
+
+.exp-left p {
+  font-size: 14px;
+  margin: 0 7px 0;
+}
+
+.exp-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 7px 0 0;
+}
+
+.exp-right p {
+  margin: 0 15px 0 0;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: #007bff;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.exp-right i {
+  font-size: 0.9rem;
+  cursor: pointer;
 }

@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <div className="header">
-      <h2>My Budget Planner</h2>
+      <h2 className="title">My Budget Planner</h2>
       <div className="header-disp">
         <div className="disp-1">
           <p>Budget:</p>
