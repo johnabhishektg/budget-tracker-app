@@ -65,6 +65,7 @@
 
 .search {
   margin-top: 2rem;
+  padding: 0 10%;
 }
 
 .search h2 {
@@ -75,13 +76,15 @@
 .search input {
   border: #a1a1a194 solid 1px;
   border-radius: 4px;
-  padding: 5px;
-  width: 90%;
+  padding: 4px;
+  outline: none;
+  width: 100%;
 }
 
 /*  EXPENSES */
 .expenses-list {
   margin-top: 15px;
+  padding: 0 10%;
 }
 
 .expense {
@@ -90,7 +93,6 @@
   align-items: center;
   border: 1px solid #a1a1a148;
   padding: 7px;
-  margin: 0 7px 0 0;
   border-radius: 4px;
 }
 
