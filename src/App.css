@@ -68,7 +68,7 @@
   padding: 0 10%;
 }
 
-.search h2 {
+h2 {
   font-size: 1.4rem;
   margin: 5px 0;
 }
@@ -121,4 +121,51 @@
 .exp-right i {
   font-size: 0.9rem;
   cursor: pointer;
+}
+
+/* ADD  */
+
+.add-exp {
+  margin-top: 2rem;
+  padding: 0 10%;
+}
+
+.add-exp p {
+  margin: 0;
+}
+
+.exp-form {
+  display: flex;
+  align-items: center;
+}
+
+.cost {
+  margin-left: 15px;
+}
+.add-exp input {
+  border: #a1a1a194 solid 1px;
+  border-radius: 4px;
+  padding: 4px 7px;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  --webkit-appearance: none;
+  margin: 0;
+}
+
+.add-exp button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 7px;
+  cursor: pointer;
+}
+
+.add-exp button:hover {
+  background-color: #0455ad;
+  transition: all 0.25s;
 }

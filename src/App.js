@@ -3,6 +3,7 @@ import { nanoid } from "nanoid";
 import Header from "./components/Header";
 import Search from "./components/Search";
 import ExpenseList from "./components/ExpenseList";
+import AddExpense from "./components/AddExpense";
 import { useState } from "react";
 
 const App = () => {
@@ -24,11 +25,22 @@ const App = () => {
     },
   ]);
 
+  const addExp = (cost) => {
+    const addExpense = {
+      id: nanoid(),
+      name: "name",
+      cost: cost,
+    };
+    const newExpenses = [...expenses, addExpense];
+    setExpenses(newExpenses);
+  };
+
   return (
     <div className="App">
       <Header />
       <Search />
       <ExpenseList expenses={expenses} />
+      <AddExpense handleCostExp={addExp} />
     </div>
   );
 };
