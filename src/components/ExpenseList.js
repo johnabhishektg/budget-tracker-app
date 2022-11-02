@@ -1,6 +1,9 @@
+import React, { useContext } from "react";
+import { AppContext } from "../context/AppContext";
 import Expenses from "./Expenses";
 
-const ExpensesList = ({ expenses }) => {
+const ExpensesList = () => {
+  const { expenses } = useContext(AppContext);
   return (
     <div className="expenses-list">
       {expenses.map((expense) => (

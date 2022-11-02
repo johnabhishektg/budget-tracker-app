@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const AddExpense = ({ handleCostExp }) => {
+const AddExpense = () => {
   const [name, setName] = useState("");
   const [cost, setCost] = useState("");
 
