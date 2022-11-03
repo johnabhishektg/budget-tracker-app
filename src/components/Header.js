@@ -3,6 +3,7 @@ import { AppContext } from "../context/AppContext";
 
 const Header = () => {
   const { budget } = useContext(AppContext);
+
   return (
     <div className="header">
       <h2 className="title">My Budget Planner</h2>
