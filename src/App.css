@@ -43,6 +43,16 @@
   color: #fff;
 }
 
+.disp-1 button:hover {
+  background-color: #0455ad;
+  transition: all 0.25s;
+}
+
+.editbudg {
+  border: none;
+  width: 70px;
+}
+
 .disp-2 {
   margin-right: 4rem;
   background-color: rgb(148, 222, 251);
@@ -50,6 +60,10 @@
   border-radius: 4px;
   width: 150px;
   height: auto;
+}
+
+.disp-2.alert {
+  background-color: rgb(250, 121, 121);
 }
 
 .disp-3 {
